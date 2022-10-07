@@ -1,0 +1,219 @@
+/* GENERAL STYLES */
+:root {
+  --second-font: "Raleway", sans-serif;
+  --accent-color: #ff6c00;
+  --main-color: #303030;
+  --second-color: #555555;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.btn {
+  background: transparent;
+}
+.list {
+  list-style: nonne;
+}
+
+header {
+  background-color: grey;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title-before {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  line-height: 1.33;
+  color: #ffffff;
+}
+.header-nav-link {
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+.header-tel-link {
+  text-transform: uppercase;
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header-btn:hover {
+  background: var(--accent-color);
+}
+/* HERO */
+.hero-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.hero-title-before {
+}
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: calc(85 / 72);
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.hero-title-after {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+/* ABOUT */
+.about-title-before {
+  color: var(--main-color);
+}
+.about-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+  color: var(--main-color);
+}
+.about-title-after {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+.about-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+/* SERVICES */
+.services-title-before {
+}
+.services-title {
+  background: grey;
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.secvices-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.services-item-last {
+  text-align: right;
+}
+.services-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* BENEFITS */
+.benefits-number {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--main-color);
+}
+.benefits-plus {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(22 / 16);
+  text-align: center;
+  color: var(--accent-color);
+}
+.benefits-title-before {
+  color: var(--main-color);
+}
+.benefits-title {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+  color: var(--main-color);
+}
+.about-title-after {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
